@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const PORT = 5005;
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-require(dotenv).config();
+require("dotenv").config();
 
 const FRONTEND_URL = process.env.origin || `http://localhost:5173`;
 
